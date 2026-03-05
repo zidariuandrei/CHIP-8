@@ -59,7 +59,7 @@ func (g *Game) Layout(outsideWidth, outsideHeight int) (screenWidth, screenHeigh
 func main() {
 	c := cpu.NewCPU()
 
-	err := c.LoadROM("games/SpaceInvaders.ch8")
+	err := c.LoadROM("games/Maze.ch8")
 	if err != nil {
 		log.Fatal(err)
 	}
