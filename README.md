@@ -37,13 +37,13 @@ The original CHIP-8 hex keypad is mapped to the modern keyboard as follows:
 | **8** | `S` | | **9** | `D` |
 | **0** | `X` | | **B** | `C` |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Go](https://go.dev/doc/install) 1.21 or higher
 - C compiler (required for Ebitengine dependencies)
 
-## 🛠️ Implementation Details
+## Implementation Details
 - **The "Burst-Step" Pattern**: To achieve 500Hz+ while maintaining a 60Hz render loop, the engine executes 8-10 CPU cycles per frame.
 - **Bitwise Shifting**: Opcodes are decoded using high-speed masking and bit-shifting logic for maximum efficiency.
 - **Hardware Fonts**: Built-in 80-byte font set loaded into the "reserved" memory space (0x000-0x1FF).
