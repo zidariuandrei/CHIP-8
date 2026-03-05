@@ -37,8 +37,6 @@ The original CHIP-8 hex keypad is mapped to the modern keyboard as follows:
 | **8** | `S` | | **9** | `D` |
 | **0** | `X` | | **B** | `C` |
 
-## Getting Started
-
 ### Prerequisites
 - [Go](https://go.dev/doc/install) 1.21 or higher
 - C compiler (required for Ebitengine dependencies)
